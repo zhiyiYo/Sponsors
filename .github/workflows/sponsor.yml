@@ -2,10 +2,17 @@
 name: sponsors
 
 on:
+  push:
+    branches: [ main ]
+
+  # 当 star 当前仓库时立即执行
+  watch:
+    types: [started]
+
   # 增加一份定时任务，具体时间可任意指定
   schedule:
-      # 这里指定为每天早晨7:00更新
-    - cron: '0 0 7 * *'
+    # UTC 00:00 和 UTC 12:00
+    - cron: '0 0,12 * * *'
 
 jobs:
   update-sponsors:
