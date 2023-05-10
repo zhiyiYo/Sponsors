@@ -18,8 +18,8 @@ jobs:
         run: npx sponsorkit -f -w 800 --dir . && npx sponsorkit -f -w 1300 --name sponsors.wide --dir .
         env:
           # 使用仓库内配置好的Token
-          SPONSORKIT_AFDIAN_TOKEN: ${{ secrets.AFDIAN_TOKEN }}
-          SPONSORKIT_AFDIAN_USER_ID: ${{ secrets.AFDIAN_USER_ID }}
+          SPONSORKIT_AFDIAN_TOKEN: ${{ secrets.SPONSORKIT_AFDIAN_TOKEN }}
+          SPONSORKIT_AFDIAN_USER_ID: ${{ secrets.SPONSORKIT_AFDIAN_USER_ID }}
 
       - name: Commit
         uses: EndBug/add-and-commit@v4
