@@ -19,9 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
+
       - name: Install package
-        # 使用sponsorkit工具生成Sponsors图片到根目录
         run: npm install
 
       - name: Update sponsors
