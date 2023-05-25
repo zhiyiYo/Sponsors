@@ -4,7 +4,7 @@ import path from 'path'
 
 const YUQIAO_LOGO = (width: number, y: number) =>
   readFileSync(path.resolve(__dirname, './logo/语核科技.svg'), 'utf-8')
-    .replace('${x}', String((width - 273) / 2))
+    .replace('${x}', String((width - 186) / 2))
     .replace('${y}', String(y))
 
 export default defineConfig({
