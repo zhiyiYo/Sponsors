@@ -1,11 +1,4 @@
 import { defineConfig, presets } from 'sponsorkit'
-import { readFileSync } from 'fs'
-import path from 'path'
-
-const YUQIAO_LOGO = (width: number, y: number) =>
-  readFileSync(path.resolve(__dirname, './logo/语核科技.svg'), 'utf-8')
-    .replace('${x}', String((width - 186) / 2))
-    .replace('${y}', String(y))
 
 export default defineConfig({
   // includePrivate: true,
@@ -52,19 +45,8 @@ export default defineConfig({
     },
     {
       title: '奇迹于你',
-      monthlyDollars: Infinity,
-      composeAfter(compose, _, config) {
-        if (
-          config.filter?.({ monthlyDollars: Infinity } as any, []) !== false
-        ) {
-          compose
-            .addSpan(20)
-            .addText('奇迹于你', 'sponsorkit-tier-title')
-            .addSpan(10)
-            .addRaw(YUQIAO_LOGO(config.width!, compose.height))
-            .addSpan(100)
-        }
-      },
+      monthlyDollars: 105,
+      preset: presets.xl,
     },
   ],
 })
