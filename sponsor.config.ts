@@ -47,19 +47,19 @@ export default defineConfig({
     },
     {
       title: '奇跡の愛',
-      monthlyDollars: 41,//￥166.66
+      monthlyDollars: 41,//￥266.66
       preset: presets.xl,
     },
     {
       title: '奇迹于你',
-      monthlyDollars: 105,
+      monthlyDollars: Infinity,
       composeAfter(compose, _, config) {
         if (
-          config.filter?.({ monthlyDollars: 105 } as any, []) !== false
+          config.filter?.({ monthlyDollars: Infinity } as any, []) !== false
         ) {
           compose
             .addSpan(20)
-            .addText('Special Sponsor', 'sponsorkit-tier-title')
+            .addText('奇迹于你', 'sponsorkit-tier-title')
             .addSpan(10)
             .addRaw(YUQIAO_LOGO(config.width!, compose.height))
             .addSpan(100)
