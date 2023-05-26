@@ -12,12 +12,6 @@ export default defineConfig({
       title: '疯狂钻石',
       monthlyDollars: 2.5,  //￥16.66
       preset: presets.small,
-      // to replace the entire tier rendering
-      // compose: (composer, tierSponsors, config) => {
-      //   composer.addRaw(
-      //     '<-- custom svg -->',
-      //   )
-      // },
     },
     {
       title: '黄金体验',
