@@ -320,7 +320,7 @@
     "privacyLevel": "PUBLIC",
     "tierName": "Afdian",
     "createdAt": "2023-07-11T12:28:06.000Z",
-    "isOneTime": true,
+    "isOneTime": false,
     "provider": "afdian"
   },
   {
@@ -338,7 +338,7 @@
     "privacyLevel": "PUBLIC",
     "tierName": "Afdian",
     "createdAt": "2023-07-11T08:07:14.000Z",
-    "isOneTime": true,
+    "isOneTime": false,
     "provider": "afdian"
   },
   {
