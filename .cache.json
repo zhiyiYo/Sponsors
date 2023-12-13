@@ -2,6 +2,24 @@
   {
     "sponsor": {
       "type": "User",
+      "login": "c6607b0412a211eea38b52540025c377",
+      "name": "长虹",
+      "avatarUrl": "https://pic1.afdiancdn.com/user/user_upload_osl/e6aeb11e5ffac950e1e3defe57d7bd66_w132_h132_s0.jpeg",
+      "linkUrl": "https://afdian.net/u/c6607b0412a211eea38b52540025c377",
+      "avatarUrlHighRes": "data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAG1BMVEVMaXEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAuq/eNAAAACHRSTlMA6sQzoU5tGDAjZhoAAAAJcEhZcwAACxMAAAsTAQCanBgAAAHpSURBVHja7ZtZjsMwDEMjeeP9TzzIpEC6TJvN1vvo8AIPlpl4o6bpsFKp2d1Mkszccy1pGqxU8y/vVZbrKHp7C72Dt+7YkrVLXrtWeGusj+PuVfPkOigvPWp8GNsFnU5hf9FXCt6yLiiftng1XZKdc3hzXZafGHQxdZAdNllVJ+XwMp8pdzJ1lCWGu59cOnMl7bJY0QAViLuDnGwMWAnibjisDeNK9ul7dg2Uv+dmDVUONvSmtUdO8Mdpdg2XD10IP6kShX5T7KwQvTg7KUgp3ll/+qsoTIUZ8NOQAwf8OMseCXbA0s9DzrHg9Vu2WLAh1rr/ojwafKt1U7ha3Hr4qEp4eq21xYMN+Hus/5BKgCszxcskGwGeJ1mIIG/N7ioMuDCmnm2dGXCOX5oWOQc2BmwcWJD+wXHg73P19/25sEUCWxaxjQC29cE2e9z2FtvQY0cY7NCGHVO5gzl2FYFdvmDXTdwFG3alyF2iYtfG2EU59zSAPYZwzz/Ygxf3xIc9anLPuNjDNfdUz4UTsDgGF0DhIjdcyGgg2ahA12ZgkIrOcWHBEfHIvQlcKhDKRWC50C8XcwaD3VyUnQvvg+0KXIPGeXSXbhioCWfi2o6WzxpptFoszrSW3WpONNOt9Fv7oM3dg6fbB38ABERf47uTDZkAAAAASUVORK5CYII=",
+      "avatarUrlMediumRes": "data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAIVBMVEVMaXEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDDJxXtDAAAACnRSTlMACuBKlNAe7223HQkyWAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVJJREFUeNq1mQsSwiAMBUkIBHL/AzvVcdRqawvbd4CdfCgkryntq+ZmvahHuJZuLdc0LslW4kvFsgzhsnlsyC2fDq5p7EqbkLiTyHwAd0ceS7z2OKx+oOfZ44T8X5BicVK2W0kpcVplh1gHeBFls5BVY0haWd4WUUoM61cdZ3g/iRZTsq/zHJNanfDqs0D/bEyPaXU04VXSogRQX51ugaixAb6FCAX4ClEpoIItfm+0ccD7ByjOAV3YjB85Gwlcci4ksKRUA5WwJVyK2FhgY3uydKWzwM42eWmzskBNzgI9BSwa6HzKeFPwY4MfbPzTwy8H/PrCL1j8CeAfKfwZxR96fBThhyV8nOMHTnwkxod2fq3AFx9+NeOXR3y95RfwSYugy/UmBm+z8EYQb1WN1bHvG52w3ccbkhdYprype4HtzBvjj1qi1v0VPxee0NXvj3+wGxBHw0SAXTDGAAAAAElFTkSuQmCC",
+      "avatarUrlLowRes": "data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAJFBMVEVMaXEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDB3rJ+PAAAAC3RSTlMAHLwJle5b2aUwfMHyUPQAAAAJcEhZcwAACxMAAAsTAQCanBgAAADOSURBVHjarZbbDgMhCAWRBXXl//+3MWmb7V45J533CaIIiBwo1bR5hDe1WuSRMlr80Ma9tfY4QdfrCKfCpF9Eqh6XeD0RFotbbDkYGg/oghp7J2PsHIsUtrmrSPK9t+JZxT/v0yNNf1dJAKxokHeYEhAzm4EpQ0QapjT4XPNkFVVqtla2VaOoomj2M39HFZeAwRVnDkakT1wy8ZREwRBlSRQ/88WIj0y0C6YpIWGMb7BEG2eGBTOSiMHHjFdmiDOrwm2gXv639lDLVWqFewFoAVPF6K8DpAAAAABJRU5ErkJggg=="
+    },
+    "monthlyDollars": 36.75076923076923,
+    "privacyLevel": "PUBLIC",
+    "tierName": "Afdian",
+    "createdAt": "2023-12-13T05:47:10.000Z",
+    "isOneTime": true,
+    "provider": "afdian"
+  },
+  {
+    "sponsor": {
+      "type": "User",
       "login": "1a6f6652979511eeb46252540025c377",
       "name": "爱发电用户_1a6f6",
       "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
